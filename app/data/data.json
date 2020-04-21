@@ -1,0 +1,200 @@
+{
+    "id": "parent",
+    "code": "parent",
+    "children": [
+        {
+            "id": "rtsp",
+            "code": "rtsp",
+            "children": [
+                {
+                    "id": "001",
+                    "code": "cam30",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "002",
+                    "code": "cam31",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "003",
+                    "code": "cam32",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "004",
+                    "code": "cam10",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "005",
+                    "code": "cam11",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "006",
+                    "code": "cam12",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "007",
+                    "code": "cam13",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "008",
+                    "code": "cam14",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "009",
+                    "code": "cam15",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "010",
+                    "code": "cam16",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "011",
+                    "code": "cam17",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "012",
+                    "code": "cam18",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "013",
+                    "code": "cam19",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "014",
+                    "code": "cam9",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "015",
+                    "code": "cam7",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "016",
+                    "code": "cam8",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "017",
+                    "code": "cam5",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                },
+                {
+                    "id": "018",
+                    "code": "cam6",
+                    "source": "http://192.168.43.43/stream/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.43.43/stream/stream_001/index.m3u8"
+                }
+            ]
+        },
+        {
+            "id": "test",
+            "code": "test",
+            "children": [
+                {
+                    "id": "cam100",
+                    "code": "cam100",
+                    "source": "cam100",
+                    "sourceFullScreen": "cam100"
+                },
+                {
+                    "id": "zone-a",
+                    "code": "zone-a",
+                    "children": [
+                        {
+                            "id": "cam100a",
+                            "code": "cam100a",
+                            "source": "cam100a",
+                            "sourceFullScreen": "cam100a"
+                        }
+                    ]
+                },
+                {
+                    "id": "cam101",
+                    "code": "cam101",
+                    "source": "changed",
+                    "sourceFullScreen": "changed"
+                },
+                {
+                    "id": "cam102",
+                    "code": "cam102",
+                    "source": "cam102",
+                    "sourceFullScreen": "cam102"
+                },
+                {
+                    "id": "cam103",
+                    "code": "cam103",
+                    "source": "cam102",
+                    "sourceFullScreen": "cam102"
+                },
+                {
+                    "id": "cam105",
+                    "code": "cam105",
+                    "source": "cam105",
+                    "sourceFullScreen": "cam105"
+                }
+            ]
+        },
+        {
+            "id": "entrepot",
+            "code": "entrepot",
+            "children": [
+                {
+                    "id": "cam1100",
+                    "code": "cam1100",
+                    "source": "rtsp://125.122.15.12",
+                    "sourceFullScreen": "rtsp://125.22.122.11"
+                },
+                {
+                    "id": "safe zone",
+                    "code": "safe zone",
+                    "children": []
+                }
+            ]
+        },
+        {
+            "id": "zsd",
+            "code": "sdf",
+            "children": []
+        },
+        {
+            "id": "za",
+            "code": "aze",
+            "children": []
+        },
+        {
+            "id": "qsd",
+            "code": "azeqsd",
+            "children": []
+        }
+    ]
+}

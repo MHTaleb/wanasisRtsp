@@ -1,0 +1,31 @@
+<html>
+
+
+<body>
+
+    <div class="w3-card-4"></div>
+    <div class="w3-container w3-green">
+
+        <h2>Formulaire d édition de Grille</h2>
+        <span onclick="document.getElementById('id01').style.display='none'"
+            class="w3-button w3-display-topright">&times;</span>
+    </div>
+    <br><br>
+    <form class="w3-container">
+        <div class="w3-row">
+
+            <label class="w3-col" style="width:27%;float: right;" for="gridRange"> Taille de la grille <span id="gridValue"></span>
+            </label>
+            <input class="w3-col w3-margin-left slider" style="width:71%" type="range" min="1" oninput="updateValue()"
+                max="10" value="4" id="gridRange">
+
+            <br><br>
+            <input type="button" class="w3-btn w3-block w3-teal" value="Editer" onclick="editGrid()"> </input>
+            <br>
+        </div>
+    </form>
+    </div>
+
+</body>
+
+</html>
