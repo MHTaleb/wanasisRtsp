@@ -19,7 +19,7 @@
   "license": "MIT",
   "devDependencies": {
     "dialog": "^0.2.0",
-    "electron": "^1.4.1",
+    "electron": "^1.8.8",
     "electron-packager": "^14.2.1",
     "remote": "^0.2.6",
     "yarn": "^0.21.3"

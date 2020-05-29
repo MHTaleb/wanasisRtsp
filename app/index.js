@@ -4,6 +4,7 @@ const path = require('path')
 var a = require("array-tools");
 const file = path.join(__dirname, 'data', 'data.json');
 const configFile = path.join(__dirname, 'data', 'config.json');
+const legacyFile = path.join(__dirname, 'data', 'legacy.json');
 
 var json;
 var configJson;

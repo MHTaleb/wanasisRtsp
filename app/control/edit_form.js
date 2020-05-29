@@ -25,7 +25,59 @@ $(document).ready(function () {
 
 
 
+
 })
+
+function loadLegacyData(){
+    
+    let legacy;
+
+
+    jsonfile.readFile(legacyFile)
+        .then(obj => {
+            legacy = JSON.parse(JSON.stringify(obj));
+            brandJson = {
+                "id": "parent",
+                "code": "parent",
+                "children": []
+            };
+
+           for (const [key, value] of Object.entries(legacy)) {
+           
+            let cameraMode = !value.childrens;
+
+            let cid = key+'';
+        
+            let parent = value.parent+'';
+        
+            let source = key+'';
+            
+            console.log(`${cameraMode}: ${cid}:${parent}: ${source}:${key}`);
+            if (cameraMode) {
+        
+                let wideFormat = value.sourceFullScreen+'';
+                let simpleFormat = value.source+'';
+
+                insertChild = { "id": cid, "code": source, "source": simpleFormat, "sourceFullScreen": wideFormat, "children": undefined };
+                brandJson= insertIntoChildJSON(brandJson, parent, insertChild)
+        
+            } else {
+                editCamera(parent, cid, source, undefined, undefined, [])
+                insertChild = { "id": cid, "code": source, "source": undefined, "sourceFullScreen": undefined, "children": [] };
+                brandJson= insertIntoChildJSON(brandJson, parent, insertChild)
+            }
+
+           }
+
+           jsonfile.writeFile(file, brandJson).then(err => {console.log("filewrited")});
+           json = brandJson;
+           html = "";
+           html = parseIssues(brandJson.children);
+           document.getElementById('a').innerHTML = html;
+        })
+        .catch(error => console.error(error))
+
+}
 
 function getAllParents(json) {
 
@@ -99,7 +151,7 @@ function editCamera(parent, id, source, simpleFormat, wideFormat, children) {
             console.log(JSON.stringify(json));
 
 
-            jsonfile.writeFile(file, json);
+            jsonfile.writeFile(file, json).then(err => {console.log("filewrited")});
             html = "";
             html = parseIssues(json.children);
             document.getElementById('a').innerHTML = html;
