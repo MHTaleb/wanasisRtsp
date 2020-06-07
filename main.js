@@ -14,25 +14,25 @@ let mainWindow
 // Set the path where recordings will be saved
 app.setPath("userData", __dirname + "/saved_recordings")
 
-function createWindow () {
+function createWindow() {
   // Create the browser window.
   mainWindow = new BrowserWindow(
     {
       width: 800, height: 600, center: true,
       fullscreenable: true, alwaysOnTop: true,
-      autoHideMenuBar: true, darkTheme:true
+      autoHideMenuBar: true, darkTheme: true
     })
 
 
-    // get all links in web browser
-    mainWindow.webContents.on('new-window', function(e, url) {
-      e.preventDefault();
-      require('electron').shell.openExternal(url);
-    });
+  // get all links in web browser
+  mainWindow.webContents.on('new-window', function (e, url) {
+    e.preventDefault();
+    require('electron').shell.openExternal(url);
+  });
 
   // and load the index.html of the app.
   mainWindow.loadURL(url.format({
-    pathname: path.join(__dirname, 'app','index.html'),
+    pathname: path.join(__dirname, 'app', 'index.html'),
     protocol: 'file:',
     slashes: true
   }))
@@ -46,6 +46,12 @@ function createWindow () {
     // when you should delete the corresponding element.
     mainWindow = null
   })
+
+  const ses = mainWindow.webContents.session;
+
+  ses.clearCache(() => {
+    console.log("cleared electron app cache");
+  });
 }
 
 

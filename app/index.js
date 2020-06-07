@@ -68,7 +68,7 @@ function addPlayer(p) {
 
     camPath = getCamPath(p);
     itemClass = "item" + gridSize + "X" + gridSize;
-    node.setAttribute('class', itemClass);
+    node.setAttribute('class', itemClass+' video-container ');
     node.setAttribute('id', "panel-video-" + p);
     node.innerHTML = "<div ondblclick='fullscreen(" + `"` + p + `"` + ")' class='item-content'><div class='panel-heading'><div class='panel-title-box'><span>" + camPath + "</span></div><div class='panel-body padding-0'><video class='autosize' id='player_" + p + "' style='width:100%; height:100%; max-height:800px;' autoplay muted></video></div></div>";
 
