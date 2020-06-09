@@ -39,10 +39,12 @@ $(document).ready(function () {
 
 
 function createCheck(issue) {
-    return "<input class='cbx' style='display:none;' type='checkbox' id='" + issue.id + "' value='" + issue.id + "' onclick='handleSelectedCam(this);'/><label class='check' for='" + issue.id + "'>  <svg width='18px' height='18px' viewBox='0 0 18 18'>"
-        + "<path d='M1,9 L1,3.5 C1,2 2,1 3.5,1 L14.5,1 C16,1 17,2 17,3.5 L17,14.5 C17,16 16,17 14.5,17 L3.5,17 C2,17 1,16 1,14.5 L1,9 Z'></path>"
-        + "<polyline points='1 9 7 14 15 4'></polyline>"
-        + "</svg> " + issue.code + "</label>";
+    if(issue.children) return "<span>"+ issue.code+"</span>";
+
+
+    return "<span><input class='cbx' style='display:none;' type='checkbox' id='" + issue.id + "' value='" + issue.id + "' onclick='handleSelectedCam(this);'/>"+
+    "<label class='toggle' for='" + issue.id + "'>  "+
+    "<span> </span>"   +  "</label>"+"<span>"+ issue.code+"</span> </span>";
 }
 
 function parseIssues(issues) {
@@ -51,7 +53,7 @@ function parseIssues(issues) {
     for (var i = 0; i < issues.length; i++) {
         var issue = issues[i],
             input = createCheck(issue); // Creates the html for the checkbox
-        html += "<li>" + input;
+        html += "<li style='margin:5px;'>" + input;
         if (typeof issue.children !== "undefined" && issue.children.length > 0) {
             parseIssues(issue.children); // Calls a function which does similar to this for with the children.
         }
@@ -84,7 +86,12 @@ function addPlayer(p) {
         }
     });
 
-
+    $('[id^=panel-video]').each((i,v) => {
+        console.log(i)
+        console.log(v)
+        v.className = 'item'+gridSize+'X'+gridSize;
+        
+    })
 
 }
 
@@ -138,6 +145,7 @@ function handleSelectedCam(checkBox) {
     } else {
         removePlayer(checkBox.id);
     }
+    resizeWindow();
 }
 
 function openNav() {
@@ -369,3 +377,9 @@ loadCSS = function (href) {
     });
 
 };
+
+function resizeWindow(){
+    var evt = document.createEvent('UIEvents');
+    evt.initUIEvent('resize', true, false,window,0);
+    window.dispatchEvent(evt); 
+}
