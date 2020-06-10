@@ -1,0 +1,48 @@
+var is = require("electron-is");
+
+function initialize() {
+    console.log("test de js ")
+    if (is.windows())
+        console.log("Windows Detected.")
+    if (is.macOS())
+        console.log("Apple OS Detected.")
+    if (is.linux())
+        console.log("Linux Detected.")
+}
+
+function start(source) {
+
+    m3u8_source  = source.replace("rtsp://","/var/www/stream/").replace(/=/g,"").replace(/[?&:@]/g,"/")+"/index.m3u8";
+    
+    console.log(m3u8_source);
+
+    cmd = "./run_source.sh";
+    
+    var child = process.spawn(cmd,[source,m3u8_source]);
+
+    child.on('error', function (err) {
+        console.log('stderr: <' + err + '>');
+    });
+
+    child.stdout.on('data', function (data) {
+        console.log(data);
+    });
+
+    child.stderr.on('data', function (data) {
+        console.log('stderr: <' + data + '>');
+    });
+
+    child.on('close', function (code) {
+        if (code == 0)
+        console.log('child process complete.');
+        else
+        console.log('child process exited with code ' + code);
+
+    });
+    
+    return m3u8_source;
+    
+}
+
+exports.initialize = initialize;
+exports.start = start;

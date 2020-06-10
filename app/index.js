@@ -1,5 +1,6 @@
 
 const jsonfile = require('jsonfile')
+const process = require('./batch/process.js')
 const path = require('path')
 var a = require("array-tools");
 const file = path.join(__dirname, 'data', 'data.json');
@@ -13,7 +14,10 @@ var html = "";// The returned object.
 let parents = [];
 
 
+process.initialize();
+
 $(document).ready(function () {
+    
     jsonfile.readFile(file)
         .then(obj => {
             json = JSON.parse(JSON.stringify(obj));
@@ -165,6 +169,7 @@ function playVideo(p1) {
     var player = new Hls();
     source = screenSource(p1);
     console.log(source);
+    source = process.start(source);
     player.attachMedia(video);
     player.on(Hls.Events.MEDIA_ATTACHED, function () {
         player.loadSource(source);
@@ -244,6 +249,7 @@ function fullscreen(p) {
     var player = new Hls();
     source = fullscreenSource(p);
     console.log(source);
+    source = 
     player.attachMedia(video);
     player.on(Hls.Events.MEDIA_ATTACHED, function () {
         player.loadSource(source);

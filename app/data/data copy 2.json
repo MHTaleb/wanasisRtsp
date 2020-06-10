@@ -1,0 +1,764 @@
+{
+    "id": "parent",
+    "code": "parent",
+    "children": [
+        {
+            "id": "DVR-138",
+            "code": "DVR-138",
+            "children": [
+                {
+                    "id": "cam_102",
+                    "code": "cam_102",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_001/index.m3u8"
+                },
+                {
+                    "id": "cam_202",
+                    "code": "cam_202",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_002/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_002/index.m3u8"
+                },
+                {
+                    "id": "cam_302",
+                    "code": "cam_302",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_003/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_003/index.m3u8"
+                },
+                {
+                    "id": "cam_402",
+                    "code": "cam_402",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_004/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_004/index.m3u8"
+                },
+                {
+                    "id": "cam_502",
+                    "code": "cam_502",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_005/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_005/index.m3u8"
+                },
+                {
+                    "id": "cam_602",
+                    "code": "cam_602",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_006/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_006/index.m3u8"
+                },
+                {
+                    "id": "cam_702",
+                    "code": "cam_702",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_007/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_007/index.m3u8"
+                },
+                {
+                    "id": "cam_802",
+                    "code": "cam_802",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_008/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_008/index.m3u8"
+                },
+                {
+                    "id": "cam_902",
+                    "code": "cam_902",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_009/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_009/index.m3u8"
+                },
+                {
+                    "id": "cam_1002",
+                    "code": "cam_1002",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_010/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_010/index.m3u8"
+                },
+                {
+                    "id": "cam_1102",
+                    "code": "cam_1102",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_011/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_011/index.m3u8"
+                },
+                {
+                    "id": "cam_1202",
+                    "code": "cam_1302",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_012/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_012/index.m3u8"
+                },
+                {
+                    "id": "cam_1402",
+                    "code": "cam_1402",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_014/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_014/index.m3u8"
+                },
+                                {
+                    "id": "cam_1502",
+                    "code": "cam_1502",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_015/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_015/index.m3u8"
+                },
+                {
+                    "id": "cam_1602",
+                    "code": "cam_1602",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_016/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_016/index.m3u8"
+                },
+                {
+                    "id": "cam_1702",
+                    "code": "cam_1702",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_017/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_017/index.m3u8"
+                },
+                {
+                    "id": "cam_1802",
+                    "code": "cam_1802",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_018/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_018/index.m3u8"
+                },
+                {
+                    "id": "cam_1902",
+                    "code": "cam_1902",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_019/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_019/index.m3u8"
+                },
+                {
+                    "id": "cam_2002",
+                    "code": "cam_2002",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_020/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_020/index.m3u8"
+                },
+                {
+                    "id": "cam_2102",
+                    "code": "cam_2102",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_021/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_021/index.m3u8"
+                },
+                {
+                    "id": "cam_2202",
+                    "code": "cam_2202",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_022/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_022/index.m3u8"
+                },
+                {
+                    "id": "cam_2302",
+                    "code": "cam_2302",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_023/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_023/index.m3u8"
+                },
+                {
+                    "id": "cam_2402",
+                    "code": "cam_2402",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_024/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_024/index.m3u8"
+                },
+                {
+                    "id": "cam_2502",
+                    "code": "cam_2502",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_025/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_025/index.m3u8"
+                },
+                {
+                    "id": "cam_2602",
+                    "code": "cam_2602",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_026/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_026/index.m3u8"
+                },
+                {
+                    "id": "cam_2702",
+                    "code": "cam_2702",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_027/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_027/index.m3u8"
+                },{
+                    "id": "cam_2802",
+                    "code": "cam_2802",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_028/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_028/index.m3u8"
+                },
+                {
+                    "id": "cam_2902",
+                    "code": "cam_2902",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_029/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_029/index.m3u8"
+                },
+                {
+                    "id": "cam_3002",
+                    "code": "cam_3002",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_030/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_030/index.m3u8"
+                },
+                {
+                    "id": "cam_3102",
+                    "code": "cam_3102",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_031/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_031/index.m3u8"
+                },
+                {
+                    "id": "cam_3202",
+                    "code": "cam_3202",
+                    "source": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_032/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-138/subtype_1/stream_032/index.m3u8"
+                }
+            ]
+        },
+        {
+            "id": "DVR-137",
+            "code": "DVR-137",
+            "children": [
+                {
+                    "id": "cam-102",
+                    "code": "cam-102",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_001/index.m3u8"
+                },
+                {
+                    "id": "cam-202",
+                    "code": "cam-202",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_002/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_002/index.m3u8"
+                },
+                {
+                    "id": "cam-302",
+                    "code": "cam-302",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_003/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_003/index.m3u8"
+                },                {
+                    "id": "cam-402",
+                    "code": "cam-402",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_004/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_004/index.m3u8"
+                },
+                {
+                    "id": "cam-502",
+                    "code": "cam-502",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_005/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_005/index.m3u8"
+                },
+                {
+                    "id": "cam-602",
+                    "code": "cam-602",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_006/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_006/index.m3u8"
+                },                {
+                    "id": "cam-702",
+                    "code": "cam-702",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_007/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_007/index.m3u8"
+                },
+                {
+                    "id": "cam-802",
+                    "code": "cam-802",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_008/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_008/index.m3u8"
+                },
+                {
+                    "id": "cam-902",
+                    "code": "cam-902",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_009/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_009/index.m3u8"
+                },                {
+                    "id": "cam-1002",
+                    "code": "cam-1002",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_010/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_010/index.m3u8"
+                },
+                {
+                    "id": "cam-1102",
+                    "code": "cam-1102",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_011/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_011/index.m3u8"
+                },
+                {
+                    "id": "cam-1202",
+                    "code": "cam-1202",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_012/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_012/index.m3u8"
+                },                {
+                    "id": "cam-1302",
+                    "code": "cam-1302",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_013/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_013/index.m3u8"
+                },
+                {
+                    "id": "cam-1402",
+                    "code": "cam-1402",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_014/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_014/index.m3u8"
+                },
+                {
+                    "id": "cam-1502",
+                    "code": "cam-1502",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_015/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_015/index.m3u8"
+                },                {
+                    "id": "cam-1602",
+                    "code": "cam-1602",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_016/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_016/index.m3u8"
+                },
+                {
+                    "id": "cam-1702",
+                    "code": "cam-1702",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_017/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_017/index.m3u8"
+                },
+                {
+                    "id": "cam-1802",
+                    "code": "cam-1802",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_018/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_018/index.m3u8"
+                },                {
+                    "id": "cam-1902",
+                    "code": "cam-1902",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_019/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_019/index.m3u8"
+                },
+                {
+                    "id": "cam-2002",
+                    "code": "cam-2002",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_020/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_020/index.m3u8"
+                },
+                {
+                    "id": "cam-2102",
+                    "code": "cam-2102",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_021/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_021/index.m3u8"
+                },                {
+                    "id": "cam-2202",
+                    "code": "cam-2202",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_022/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_022/index.m3u8"
+                },
+                {
+                    "id": "cam-2302",
+                    "code": "cam-2302",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_023/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_023/index.m3u8"
+                },
+                {
+                    "id": "cam-2402",
+                    "code": "cam-2402",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_024/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_024/index.m3u8"
+                },                {
+                    "id": "cam-2502",
+                    "code": "cam-2502",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_025/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_025/index.m3u8"
+                },
+                {
+                    "id": "cam-2602",
+                    "code": "cam-2602",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_026/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_026/index.m3u8"
+                },
+                {
+                    "id": "cam-2702",
+                    "code": "cam-2702",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_027/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_027/index.m3u8"
+                },                {
+                    "id": "cam-2802",
+                    "code": "cam-2802",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_028/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_028/index.m3u8"
+                },
+                {
+                    "id": "cam-2902",
+                    "code": "cam-2902",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_029/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_029/index.m3u8"
+                },
+                {
+                    "id": "cam-3002",
+                    "code": "cam-3002",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_030/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_030/index.m3u8"
+                },
+                {
+                    "id": "cam-3102",
+                    "code": "cam-3102",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_030/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_030/index.m3u8"
+                },
+                {
+                    "id": "cam-3202",
+                    "code": "cam-3202",
+                    "source": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_032/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-137/subtype_1/stream_032/index.m3u8"
+                }
+            ]
+        },
+        {
+            "id": "DVR-41",
+            "code": "DVR-41",
+            "children": [
+                {
+                    "id": "camera-102",
+                    "code": "camera-102",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_001/index.m3u8"
+                },
+                {
+                    "id": "camera-202",
+                    "code": "camera-202",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_002/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_002/index.m3u8"
+                },
+                {
+                    "id": "camera-302",
+                    "code": "camera-302",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_003/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_003/index.m3u8"
+                },                {
+                    "id": "camera-402",
+                    "code": "camera-402",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_004/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_004/index.m3u8"
+                },
+                {
+                    "id": "camera-502",
+                    "code": "camera-502",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_005/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_005/index.m3u8"
+                },
+                {
+                    "id": "camera-602",
+                    "code": "camera-602",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_006/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_006/index.m3u8"
+                },                {
+                    "id": "camera-702",
+                    "code": "camera-702",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_007/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_007/index.m3u8"
+                },
+                {
+                    "id": "camera-802",
+                    "code": "camera-802",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_008/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_008/index.m3u8"
+                },
+                {
+                    "id": "camera-902",
+                    "code": "camera-902",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_009/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_009/index.m3u8"
+                },                {
+                    "id": "camera-1002",
+                    "code": "camera-1002",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_010/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_010/index.m3u8"
+                },
+                {
+                    "id": "camera-1102",
+                    "code": "camera-1102",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_011/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_011/index.m3u8"
+                },
+                {
+                    "id": "camera-1202",
+                    "code": "camera-1202",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_012/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_012/index.m3u8"
+                },                {
+                    "id": "camera-1302",
+                    "code": "camera-1302",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_013/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_013/index.m3u8"
+                },
+                {
+                    "id": "camera-1402",
+                    "code": "camera-1402",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_014/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_014/index.m3u8"
+                },
+                {
+                    "id": "camera-1502",
+                    "code": "camera-1502",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_015/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_015/index.m3u8"
+                },                {
+                    "id": "camera-1602",
+                    "code": "camera-1602",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_016/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_016/index.m3u8"
+                },
+                {
+                    "id": "camera-1702",
+                    "code": "camera-1702",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_017/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_017/index.m3u8"
+                },
+                {
+                    "id": "camera-1802",
+                    "code": "camera-1802",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_018/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_018/index.m3u8"
+                },                {
+                    "id": "camera-1902",
+                    "code": "camera-1902",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_019/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_019/index.m3u8"
+                },
+                {
+                    "id": "camera-2002",
+                    "code": "camera-2002",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_020/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_020/index.m3u8"
+                },
+                {
+                    "id": "camera-2102",
+                    "code": "camera-2102",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_021/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_021/index.m3u8"
+                },                {
+                    "id": "camera-2202",
+                    "code": "camera-2202",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_022/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_022/index.m3u8"
+                },
+                {
+                    "id": "camera-2302",
+                    "code": "camera-2302",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_023/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_023/index.m3u8"
+                },
+                {
+                    "id": "camera-2402",
+                    "code": "camera-2402",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_024/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_024/index.m3u8"
+                },                {
+                    "id": "camera-2502",
+                    "code": "camera-2502",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_025/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_025/index.m3u8"
+                },
+                {
+                    "id": "camera-2602",
+                    "code": "camera-2602",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_026/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_026/index.m3u8"
+                },
+                {
+                    "id": "camera-2702",
+                    "code": "camera-2702",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_027/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_027/index.m3u8"
+                },                {
+                    "id": "camera-2802",
+                    "code": "camera-2802",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_028/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_028/index.m3u8"
+                },
+                {
+                    "id": "camera-2902",
+                    "code": "camera-2902",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_029/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_029/index.m3u8"
+                },
+                {
+                    "id": "camera-3002",
+                    "code": "camera-3002",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_030/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_030/index.m3u8"
+                },
+                {
+                    "id": "camera-3102",
+                    "code": "camera-3102",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_030/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_030/index.m3u8"
+                },
+                {
+                    "id": "camera-3202",
+                    "code": "camera-3202",
+                    "source": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_032/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-41/subtype_1/stream_032/index.m3u8"
+                }
+            ]
+        },
+        {
+            "id": "DVR-251",
+            "code": "DVR-251",
+            "children": [
+                {
+                    "id": "camera_102",
+                    "code": "camera_102",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_001/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_001/index.m3u8"
+                },
+                {
+                    "id": "camera_202",
+                    "code": "camera_202",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_002/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_002/index.m3u8"
+                },
+                {
+                    "id": "camera_302",
+                    "code": "camera_302",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_003/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_003/index.m3u8"
+                },                {
+                    "id": "camera_402",
+                    "code": "camera_402",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_004/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_004/index.m3u8"
+                },
+                {
+                    "id": "camera_502",
+                    "code": "camera_502",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_005/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_005/index.m3u8"
+                },
+                {
+                    "id": "camera_602",
+                    "code": "camera_602",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_006/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_006/index.m3u8"
+                },                {
+                    "id": "camera_702",
+                    "code": "camera_702",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_007/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_007/index.m3u8"
+                },
+                {
+                    "id": "camera_802",
+                    "code": "camera_802",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_008/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_008/index.m3u8"
+                },
+                {
+                    "id": "camera_902",
+                    "code": "camera_902",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_009/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_009/index.m3u8"
+                },                {
+                    "id": "camera_1002",
+                    "code": "camera_1002",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_010/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_010/index.m3u8"
+                },
+                {
+                    "id": "camera_1102",
+                    "code": "camera_1102",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_011/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_011/index.m3u8"
+                },
+                {
+                    "id": "camera_1202",
+                    "code": "camera_1202",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_012/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_012/index.m3u8"
+                },                {
+                    "id": "camera_1302",
+                    "code": "camera_1302",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_013/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_013/index.m3u8"
+                },
+                {
+                    "id": "camera_1402",
+                    "code": "camera_1402",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_014/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_014/index.m3u8"
+                },
+                {
+                    "id": "camera_1502",
+                    "code": "camera_1502",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_015/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_015/index.m3u8"
+                },                {
+                    "id": "camera_1602",
+                    "code": "camera_1602",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_016/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_016/index.m3u8"
+                },
+                {
+                    "id": "camera_1702",
+                    "code": "camera_1702",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_017/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_017/index.m3u8"
+                },
+                {
+                    "id": "camera_1802",
+                    "code": "camera_1802",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_018/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_018/index.m3u8"
+                },                {
+                    "id": "camera_1902",
+                    "code": "camera_1902",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_019/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_019/index.m3u8"
+                },
+                {
+                    "id": "camera_2002",
+                    "code": "camera_2002",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_020/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_020/index.m3u8"
+                },
+                {
+                    "id": "camera_2102",
+                    "code": "camera_2102",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_021/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_021/index.m3u8"
+                },                {
+                    "id": "camera_2202",
+                    "code": "camera_2202",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_022/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_022/index.m3u8"
+                },
+                {
+                    "id": "camera_2302",
+                    "code": "camera_2302",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_023/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_023/index.m3u8"
+                },
+                {
+                    "id": "camera_2402",
+                    "code": "camera_2402",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_024/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_024/index.m3u8"
+                },                {
+                    "id": "camera_2502",
+                    "code": "camera_2502",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_025/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_025/index.m3u8"
+                },
+                {
+                    "id": "camera_2602",
+                    "code": "camera_2602",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_026/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_026/index.m3u8"
+                },
+                {
+                    "id": "camera_2702",
+                    "code": "camera_2702",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_027/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_027/index.m3u8"
+                },                {
+                    "id": "camera_2802",
+                    "code": "camera_2802",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_028/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_028/index.m3u8"
+                },
+                {
+                    "id": "camera_2902",
+                    "code": "camera_2902",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_029/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_029/index.m3u8"
+                },
+                {
+                    "id": "camera_3002",
+                    "code": "camera_3002",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_030/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_030/index.m3u8"
+                },
+                {
+                    "id": "camera_3102",
+                    "code": "camera_3102",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_030/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_030/index.m3u8"
+                },
+                {
+                    "id": "camera_3202",
+                    "code": "camera_3202",
+                    "source": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_032/index.m3u8",
+                    "sourceFullScreen": "http://192.168.1.193/stream/DVR-251/subtype_1/stream_032/index.m3u8"
+                }
+            ]
+        }
+    ]
+}
