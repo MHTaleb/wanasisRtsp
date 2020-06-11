@@ -1,7 +1,7 @@
 
 
 self.addEventListener('message', function (e) {
-    playVideo(e.data);
+    playVideo(e.data)
 });
 
 function playVideo(p1){
@@ -16,5 +16,3 @@ function playVideo(p1){
         console.error(err)
     }
 }
-
-

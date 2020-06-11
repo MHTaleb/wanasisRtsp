@@ -25,6 +25,7 @@
     "yarn": "^0.21.3"
   },
   "dependencies": {
+    "alib-hashtable": "^1.1.2",
     "array-tools": "^2.0.9",
     "bootstrap": "^4.4.1",
     "electron-is": "^3.0.0",

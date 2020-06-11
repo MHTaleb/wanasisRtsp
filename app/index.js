@@ -150,6 +150,7 @@ function handleSelectedCam(checkBox) {
         addPlayer(checkBox.id);
     } else {
         removePlayer(checkBox.id);
+        process.stop(checkBox.id);
     }
     resizeWindow();
 }
@@ -171,7 +172,7 @@ function playVideo(p1) {
     var player = new Hls();
     source = screenSource(p1);
     console.log(source);
-    source = process.start(source);
+    source = process.start(source,p1);
     player.attachMedia(video);
     player.on(Hls.Events.MEDIA_ATTACHED, function () {
         player.loadSource(source);
@@ -179,7 +180,7 @@ function playVideo(p1) {
 
             
             const path = require('path');
-            const playvidworker = path.join(__dirname, 'async','playVidWorker.js');
+            const playvidworker = path.join(__dirname, 'asynch','playVidWorker.js');
 
             var worker = new Worker(playvidworker);
 

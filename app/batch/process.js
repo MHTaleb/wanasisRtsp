@@ -1,4 +1,11 @@
 var is = require("electron-is");
+const hashtable = require('alib-hashtable');
+ 
+//new instance
+const myHashTable = hashtable('id');
+
+
+
 const path = require('path');
 const run_source = path.join(__dirname, 'run_source.sh');
 function initialize() {
@@ -11,7 +18,7 @@ function initialize() {
         console.log("Linux Detected.")
 }
 
-function start(source) {
+function start(source,player) {
 
     const process = require('child_process'); 
 
@@ -27,6 +34,7 @@ function start(source) {
     
     var child = process.spawn(cmd,[source,m3u8_source,folder]);
 
+    myHashTable.set({id:player,ps:child});
 
     console.log(child);
 
@@ -57,5 +65,11 @@ function start(source) {
     
 }
 
+function stop(player){
+    alert(myHashTable);
+    myHashTable.get(player).ps.kill();
+}
+
 exports.initialize = initialize;
 exports.start = start;
+exports.stop = stop;
