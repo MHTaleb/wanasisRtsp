@@ -1,4 +1,6 @@
 
+const fs = require('fs')
+
 const jsonfile = require('jsonfile')
 const process = require('./batch/process.js')
 const path = require('path')
@@ -17,7 +19,7 @@ let parents = [];
 process.initialize();
 
 $(document).ready(function () {
-    
+
     jsonfile.readFile(file)
         .then(obj => {
             json = JSON.parse(JSON.stringify(obj));
@@ -43,12 +45,12 @@ $(document).ready(function () {
 
 
 function createCheck(issue) {
-    if(issue.children) return "<span>"+ issue.code+"</span>";
+    if (issue.children) return "<span>" + issue.code + "</span>";
 
 
-    return "<span><input class='cbx' style='display:none;' type='checkbox' id='" + issue.id + "' value='" + issue.id + "' onclick='handleSelectedCam(this);'/>"+
-    "<label class='toggle' for='" + issue.id + "'>  "+
-    "<span> </span>"   +  "</label>"+"<span>"+ issue.code+"</span> </span>";
+    return "<span><input class='cbx' style='display:none;' type='checkbox' id='" + issue.id + "' value='" + issue.id + "' onclick='handleSelectedCam(this);'/>" +
+        "<label class='toggle' for='" + issue.id + "'>  " +
+        "<span> </span>" + "</label>" + "<span>" + issue.code + "</span> </span>";
 }
 
 function parseIssues(issues) {
@@ -74,7 +76,7 @@ function addPlayer(p) {
 
     camPath = getCamPath(p);
     itemClass = "item" + gridSize + "X" + gridSize;
-    node.setAttribute('class', itemClass+' video-container ');
+    node.setAttribute('class', itemClass + ' video-container ');
     node.setAttribute('id', "panel-video-" + p);
     node.innerHTML = "<div ondblclick='fullscreen(" + `"` + p + `"` + ")' class='item-content'><div class='panel-heading'><div class='panel-title-box'><span>" + camPath + "</span></div><div class='panel-body padding-0'><video class='autosize' id='player_" + p + "' style='width:100%; height:100%; max-height:800px;' autoplay muted></video></div></div>";
 
@@ -90,11 +92,11 @@ function addPlayer(p) {
         }
     });
 
-    $('[id^=panel-video]').each((i,v) => {
+    $('[id^=panel-video]').each((i, v) => {
         console.log(i)
         console.log(v)
-        v.className = 'item'+gridSize+'X'+gridSize;
-        
+        v.className = 'item' + gridSize + 'X' + gridSize;
+
     })
 
 }
@@ -107,31 +109,31 @@ function getCamPath(idValue) {
         var found = false;
         for (var k in obj) {
             if (obj.hasOwnProperty(k))
-                if (obj[k] === target){
-                    value = obj.code 
-                    if(value)
-                    return path + "-" + value+ "-"
+                if (obj[k] === target) {
+                    value = obj.code
+                    if (value)
+                        return path + "-" + value + "-"
                     else return path;
                 }
-                 else if (typeof obj[k] === "object") {
+                else if (typeof obj[k] === "object") {
                     value = obj.code
-                    var result 
-                    if(value)
-                    result = search(path + "-" + obj.code + "-", obj[k], target);
-                    else result = search(path , obj[k], target);
-                     
-                     if (result)
-                         return result;
-                    }
+                    var result
+                    if (value)
+                        result = search(path + "-" + obj.code + "-", obj[k], target);
+                    else result = search(path, obj[k], target);
+
+                    if (result)
+                        return result;
+                }
         }
         return false;
     }
-    var path = search(path,json,idValue);
+    var path = search(path, json, idValue);
 
 
     console.log("++++++++++++++++" + path);
 
-    return path.replace("--parent-","");
+    return path.replace("--parent-", "");
 
 }
 
@@ -174,7 +176,15 @@ function playVideo(p1) {
     player.on(Hls.Events.MEDIA_ATTACHED, function () {
         player.loadSource(source);
         player.on(Hls.Events.MANIFEST_PARSED, function () {
-            video.play();
+
+            
+            const path = require('path');
+            const playvidworker = path.join(__dirname, 'async','playVidWorker.js');
+
+            var worker = new Worker(playvidworker);
+
+            worker.postMessage(p1);
+
         });
 
     });
@@ -249,12 +259,21 @@ function fullscreen(p) {
     var player = new Hls();
     source = fullscreenSource(p);
     console.log(source);
-    source = 
-    player.attachMedia(video);
+    source = process.start(source);
+    source =
+        player.attachMedia(video);
     player.on(Hls.Events.MEDIA_ATTACHED, function () {
         player.loadSource(source);
         player.on(Hls.Events.MANIFEST_PARSED, function () {
-            video.play();
+            try {
+                while (!fs.existsSync(source.replace("http://127.0.0.1","/var/www/html"))) {
+                         setTimeout( 1000);
+                                     //file !exists
+                }
+                video.play(); 
+            } catch (err) {
+                console.error(err)
+            }
         });
     });
 
@@ -384,8 +403,8 @@ loadCSS = function (href) {
 
 };
 
-function resizeWindow(){
+function resizeWindow() {
     var evt = document.createEvent('UIEvents');
-    evt.initUIEvent('resize', true, false,window,0);
-    window.dispatchEvent(evt); 
+    evt.initUIEvent('resize', true, false, window, 0);
+    window.dispatchEvent(evt);
 }

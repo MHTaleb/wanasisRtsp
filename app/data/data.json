@@ -11,14 +11,14 @@
                 {
                     "id": "cam_102",
                     "code": "cam_102",
-                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=1&subtype=0",
-                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=1&subtype=0"
+                    "source": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov",
+                    "sourceFullScreen": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov"
                    },
                 {
                     "id": "cam_202",
                     "code": "cam_202",
-                    "source": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/101",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/101"
+                    "source": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov",
+                    "sourceFullScreen": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov"
                   }
             ]
         }
