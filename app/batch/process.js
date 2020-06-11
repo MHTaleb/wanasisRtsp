@@ -18,11 +18,7 @@ function initialize() {
         console.log("Linux Detected.")
 }
 
-<<<<<<< HEAD
 const process = require('child_process'); 
-=======
-function start(source,player) {
->>>>>>> bugged version
 
 function start(source,player) {
 
@@ -38,11 +34,6 @@ function start(source,player) {
     
     var child = process.spawn(cmd,[source,m3u8_source,folder]);
 
-<<<<<<< HEAD
-=======
-    myHashTable.set({id:player,ps:child});
-
->>>>>>> bugged version
     console.log(child);
 
     child.on('error', function (err) {
@@ -82,15 +73,10 @@ function start(source,player) {
 }
 
 function stop(player){
-<<<<<<< HEAD
     let pid = myHashTable.get(player).pid;
     console.log("closing the ffmpeg pid "+pid);
 
     process.execSync("kill -9 "+pid)
-=======
-    alert(myHashTable);
-    myHashTable.get(player).ps.kill();
->>>>>>> bugged version
 }
 
 exports.initialize = initialize;
