@@ -1,3 +1,5 @@
 
 node_modules
 node_modules/*
+saved_recordings/
+saved_recordings/*
