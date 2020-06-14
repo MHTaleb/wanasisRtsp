@@ -1,20 +1,13 @@
 const fs = require('fs')
 
-<<<<<<< HEAD
 const Hls = require('hls.js')
 
-=======
->>>>>>>  prior prod version
 const process = require('../batch/process.js')
 
 process.initialize();
 
 
-<<<<<<< HEAD
 async function fullscreenSource(id) {
-=======
-function fullscreenSource(id) {
->>>>>>>  prior prod version
 
     function search(child, id) {
 
@@ -45,11 +38,7 @@ function fullscreenSource(id) {
 
 }
 
-<<<<<<< HEAD
 async function screenSource(id) {
-=======
-function screenSource(id) {
->>>>>>>  prior prod version
     function search(child, id) {
 
         if (child !== undefined) {
@@ -80,38 +69,24 @@ function screenSource(id) {
 
 }
 
-<<<<<<< HEAD
 async function playVideo(p1, div_prefix = "player_") {
-=======
-function playVideo(p1,div_prefix="player_") {
->>>>>>>  prior prod version
 
     var video = document.getElementById(div_prefix + p1);
     var player = new Hls();
     let source
 
-<<<<<<< HEAD
     console.log('pikakkakakka' + div_prefix)
     console.log('pikakkakakka' + p1);
     var _screenSource = screenSource;
     if (div_prefix.includes("fullplayer_")) _screenSource = fullscreenSource;
     _screenSource(p1).then(source => {
         console.log('pikakkakakka - dshfgdksf' + source);
-=======
-    console.log(div_prefix)
-    console.log(p1);
-    var _screenSource = screenSource;
-    if(div_prefix.includes("fullplayer_"))_screenSource = fullscreenSource;
-    _screenSource(p1).then(source => {
-        console.log(source);
->>>>>>>  prior prod version
         source = process.start(source, p1);
 
         console.log("the source to play is " + source)
         player.attachMedia(video);
         player.on(Hls.Events.MEDIA_ATTACHED, function () {
 
-<<<<<<< HEAD
             console.log("hello ")
 
 
@@ -170,26 +145,6 @@ function playVideo(p1,div_prefix="player_") {
 
             })
 
-=======
-            while (fs.existsSync(source.replace("http://127.0.0.1", "/var/www/html")) !== true) {
-                console.log(" ffmpeg not streming m3u8 yet")
-                setTimeout(1000,() => {});   
-            }
-
-            player.loadSource(source);
-            
-            player.on(Hls.Events.MANIFEST_PARSED, function () {
-
-                video.play();
-                /*const path = require('path');
-                const playvidworker = path.join(__dirname, 'asynch', 'playVidWorker.js');
-    
-                var worker = new Worker(playvidworker);
-    
-                worker.postMessage(p1);
-    */
-            });
->>>>>>>  prior prod version
 
         });
     });
@@ -197,11 +152,7 @@ function playVideo(p1,div_prefix="player_") {
 }
 
 
-<<<<<<< HEAD
 function stop(id) {
-=======
-function stop(id){
->>>>>>>  prior prod version
     process.stop(id);
 }
 exports.playVideo = playVideo;

@@ -5,7 +5,6 @@
  */
 
 //
-<<<<<<< HEAD
 
 
 
@@ -15,25 +14,14 @@ const Muuri = require('muuri')
 
 
 const camsMenu = require('./control/camsMenu.js')
-=======
->>>>>>>  prior prod version
 
 const camSourceRepo = require('./repo/camSourceRepo.js')
 
-<<<<<<< HEAD
-=======
-
-const camsMenu = require('./control/camsMenu.js')
-
-const camSourceRepo = require('./repo/camSourceRepo.js')
-
->>>>>>>  prior prod version
 const appConfigRepo = require('./repo/appConfigRepo.js')
 
 const gridManager = require("./control/camsGrid.js")
 
 const videoPlayer = require("./control/videoPlayer.js")
-<<<<<<< HEAD
 
 var a = require("array-tools");
 
@@ -51,16 +39,6 @@ var gridSize;
 
 var html = "";// The returned object.
 let parents = [];
-=======
-
-var a = require("array-tools");
-
-var gridSize;
-
-var html = "";// The returned object.
-let parents = [];
-
->>>>>>>  prior prod version
 
 appConfigRepo.getGridSize().then(_gridSize => {
     gridSize = _gridSize;
