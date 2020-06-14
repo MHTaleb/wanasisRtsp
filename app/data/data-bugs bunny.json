@@ -1,0 +1,26 @@
+
+
+{
+    "id": "parent",
+    "code": "parent",
+    "children": [
+        {
+            "id": "DVR-138",
+            "code": "DVR-138",
+            "children": [
+                {
+                    "id": "cam_102",
+                    "code": "cam_102",
+                    "source": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov",
+                    "sourceFullScreen": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov"
+                   },
+                {
+                    "id": "cam_202",
+                    "code": "cam_202",
+                    "source": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov",
+                    "sourceFullScreen": "rtsp://wowzaec2demo.streamlock.net/vod/mp4:BigBuckBunny_175k.mov"
+                  }
+            ]
+        }
+    ]
+}

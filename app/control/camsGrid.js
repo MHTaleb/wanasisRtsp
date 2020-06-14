@@ -61,7 +61,8 @@ function addPlayer(player, camSourceRepo, videoPlayer) {
 
         grid.show([node], {
             onFinish: function (items) {
-                videoPlayer.playVideo(player);
+                console.log("here is done")
+                videoPlayer.playVideo(player).then(console.log("staring asynch video"));
             }
         });
 
