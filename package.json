@@ -1,22 +1,22 @@
 {
-  "name": "pin-my-youtube-video",
+  "name": "wanasis-visio-guard",
   "version": "1.0.0",
-  "description": "Watch YouTube videos while working",
+  "description": "stream",
   "main": "main.js",
   "scripts": {
     "start": "electron ."
   },
   "repository": "https://github.com/Fcmam5/pin-my-youtube-video-js",
   "keywords": [
-    "Youtube",
-    "video player",
-    "listen",
-    "watch",
-    "desktop",
-    "browser"
+    "wanasis",
+    "security",
+    "rtsp",
+    "camera",
+    "streaming",
+    "dvr"
   ],
-  "author": "Fortas Abdeldjalil (Fcmam5)",
-  "license": "MIT",
+  "author": "Taleb Mohammed Housseyn",
+  "license": "Propretiary",
   "devDependencies": {
     "dialog": "^0.2.0",
     "electron": "^1.8.8",

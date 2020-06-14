@@ -18,9 +18,9 @@ function initialize() {
         console.log("Linux Detected.")
 }
 
-function start(source,player) {
+const process = require('child_process'); 
 
-    const process = require('child_process'); 
+function start(source,player) {
 
     m3u8_source  = source.replace("rtsp://","/var/www/html/stream/").replace(/[=.]/g,"").replace(/[?&:@]/g,"/")+"/index.m3u8";
 
@@ -34,12 +34,10 @@ function start(source,player) {
     
     var child = process.spawn(cmd,[source,m3u8_source,folder]);
 
-    myHashTable.set({id:player,ps:child});
-
     console.log(child);
 
     child.on('error', function (err) {
-        console.log('stderr: <' + err + '>');
+        console.log('stderr error: <' + err + '>');
     });
 
     child.stdout.on('data', function (data) {
@@ -48,7 +46,16 @@ function start(source,player) {
     });
 
     child.stderr.on('data', function (data) {
-        console.log('stderr: <' + data + '>');
+        if(data.includes("pid==")){
+            console.log(String(data));
+            debut = String(data).indexOf("pid==");
+            console.log(String(data).substr(debut,10))
+            var numb = String(data).substr(debut,10).match(/\d/g).join("");
+
+            myHashTable.set({id:player,pid:numb});
+            console.log(myHashTable.getCollection());
+                    
+        }
     });
 
     child.on('close', function (code) {
@@ -66,8 +73,11 @@ function start(source,player) {
 }
 
 function stop(player){
-    alert(myHashTable);
-    myHashTable.get(player).ps.kill();
+    alert(player);
+    let pid = myHashTable.get(player).pid;
+    console.log("closing the ffmpeg pid "+pid);
+
+    process.execSync("kill -9 "+pid)
 }
 
 exports.initialize = initialize;

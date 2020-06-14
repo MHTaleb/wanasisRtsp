@@ -9,4 +9,4 @@ mkdir -p $3
 
 ffmpeg  -i $1 -an -c:v copy -f hls -hls_time 3 -hls_list_size 3 -hls_flags delete_segments+split_by_time $2 &
 
->&2 echo "pid="$! 
+>&2 echo "pid=="$! 
