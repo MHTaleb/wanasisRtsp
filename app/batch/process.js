@@ -73,6 +73,10 @@ function start(source,player) {
 }
 
 function stop(player){
+<<<<<<< HEAD
+=======
+    alert(player);
+>>>>>>>  prior prod version
     let pid = myHashTable.get(player).pid;
     console.log("closing the ffmpeg pid "+pid);
 
