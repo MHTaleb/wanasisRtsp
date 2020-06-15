@@ -26,6 +26,12 @@ const videoPlayer = require("./control/videoPlayer.js")
 
 var a = require("array-tools");
 
+const hashtable = require('alib-hashtable');
+ 
+//new instance
+const mySourceHashTable = hashtable('id');
+const myFullSourceHashTable = hashtable('id');
+
 var fs = require('fs');
 var util = require('util');
 var log_file = fs.createWriteStream(__dirname + '/debug.log', {flags : 'w'});
@@ -128,6 +134,7 @@ function edit_grid() {
 function hideFullscreen() {
     document.getElementById('id02').style.display = 'none';
     $("#fullscreen").empty();
+
 }
 
 function fullscreen(p) {
@@ -169,7 +176,7 @@ function go_full_screen(){
     } else if (elem.webkitRequestFullscreen) {
       elem.webkitRequestFullscreen();
     }
-    
+
     if (document.exitFullscreen) {
         document.exitFullscreen();
       } else if (document.mozCancelFullScreen) { /* Firefox */

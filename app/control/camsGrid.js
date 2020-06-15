@@ -117,7 +117,7 @@ function showFullScreenPlayer(player_id, div_id = 'fullplayer_') {
     });
 
 
-    videoPlayer.playVideo(player_id, div_id);
+    videoPlayer.playVideo(player_id, div_id,true);
 
 
 }

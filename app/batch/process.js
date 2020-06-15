@@ -1,8 +1,5 @@
 var is = require("electron-is");
-const hashtable = require('alib-hashtable');
- 
-//new instance
-const myHashTable = hashtable('id');
+
 
 
 
@@ -20,7 +17,7 @@ function initialize() {
 
 const process = require('child_process'); 
 
-function start(source,player) {
+function start(source,player,isFullScreen=false) {
 
     m3u8_source  = source.replace("rtsp://","/var/www/html/stream/").replace(/[=.]/g,"").replace(/[?&:@]/g,"/")+"/index.m3u8";
 
@@ -47,14 +44,15 @@ function start(source,player) {
 
     child.stderr.on('data', function (data) {
         if(data.includes("pid==")){
-            console.log(String(data));
+            console.log("here I m printing this ------------------------- "+String(data));
             debut = String(data).indexOf("pid==");
-            console.log(String(data).substr(debut,10))
-            var numb = String(data).substr(debut,10).match(/\d/g).join("");
+            console.log(String(data).replace("pid==",""))
+            var numb = String(data).split("pid==")[1];
 
-            myHashTable.set({id:player,pid:numb});
-            console.log(myHashTable.getCollection());
-                    
+            if(isFullScreen !==  true ) mySourceHashTable.set({id:player,pid:numb});
+            else myFullSourceHashTable.set({id:player,pid:numb});
+            console.log(mySourceHashTable.getCollection());
+            console.log(myFullSourceHashTable.getCollection());       
         }
     });
 
@@ -73,9 +71,12 @@ function start(source,player) {
 }
 
 function stop(player){
-    let pid = myHashTable.get(player).pid;
+    let pid = mySourceHashTable.get(player).pid;
     console.log("closing the ffmpeg pid "+pid);
+    process.execSync("kill -9 "+pid)
 
+    pid = myFullSourceHashTable.get(player).pid;
+    console.log("closing the ffmpeg pid "+pid);
     process.execSync("kill -9 "+pid)
 }
 

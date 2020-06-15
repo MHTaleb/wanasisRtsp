@@ -4,6 +4,11 @@ const Hls = require('hls.js')
 
 const process = require('../batch/process.js')
 
+const hashtable = require('alib-hashtable');
+
+//new instance
+const fullSourceHashTable = hashtable('id');
+
 process.initialize();
 
 
@@ -69,7 +74,9 @@ async function screenSource(id) {
 
 }
 
-async function playVideo(p1, div_prefix = "player_") {
+
+
+async function playVideo(p1, div_prefix = "player_", isFullScreen = false) {
 
     var video = document.getElementById(div_prefix + p1);
     var player = new Hls();
@@ -81,7 +88,17 @@ async function playVideo(p1, div_prefix = "player_") {
     if (div_prefix.includes("fullplayer_")) _screenSource = fullscreenSource;
     _screenSource(p1).then(source => {
         console.log('pikakkakakka - dshfgdksf' + source);
-        source = process.start(source, p1);
+
+        if (isFullScreen !== true) {
+            source = process.start(source, p1);
+            fullscreenSource(p1).then(fullsource => {
+                fullsource = process.start(fullsource, p1, true)
+                fullSourceHashTable.set({ id: p1, fullScreenSource: fullsource })
+            })
+        }else{
+            source = fullSourceHashTable.get(p1).fullScreenSource;
+            console.log(fullscreenSource)
+        }
 
         console.log("the source to play is " + source)
         player.attachMedia(video);
@@ -90,37 +107,6 @@ async function playVideo(p1, div_prefix = "player_") {
             console.log("hello ")
 
 
-            /*      new Promise((resolve) => {
-                     
-                      setTimeout(() =>  function() {
-                          console.log("hello ")
-                          while (fs.existsSync(source.replace("http://127.0.0.1", "/var/www/html")) !== true) {
-          
-                              setTimeout(() => { console.log(" ffmpeg not streming m3u8 yet") }, 1000);
-                          }
-          
-                          player.loadSource(source);
-          
-                          player.on(Hls.Events.MANIFEST_PARSED, function () {
-                              console.log("hello ")
-                              video.play();
-                              /*const path = require('path');
-                              const playvidworker = path.join(__dirname, 'asynch', 'playVidWorker.js');
-                  
-                              var worker = new Worker(playvidworker);
-                  
-                              worker.postMessage(p1);
-                  
-                          });
-          
-                        //  return "success"
-          
-                      }, 1000);
-                      
-                     
-                     
-                  }).then(console.log("hello "));
-                  */
             let interval_call;
             new Promise((resolve) => {
                 interval_call = setInterval(() => {
@@ -128,7 +114,11 @@ async function playVideo(p1, div_prefix = "player_") {
                         console.log("stoping interval")
                         clearInterval(interval_call)
                         console.log(" I will play video")
-                        player.loadSource(source);
+                       
+                            
+                        
+                            player.loadSource(source);
+                        
 
                         player.on(Hls.Events.MANIFEST_PARSED, function () {
                             console.log("hello ")
@@ -140,7 +130,7 @@ async function playVideo(p1, div_prefix = "player_") {
                     } else {
                         console.log("still waiting for interval")
                     }
-                }, 1000);
+                }, 2000);
 
 
             })
