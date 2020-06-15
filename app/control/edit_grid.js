@@ -1,6 +1,13 @@
 
 
 $(document).ready(function () {
+
+    console.log('called here')
+    appConfigRepo.getAll().then( resp => {
+        console.log(resp)
+        configJson = resp;
+    })
+
     loadCSS(path.join(__dirname, 'control', 'edit_grid.css'));
     $('#gridRange').val(gridSize)
     updateValue();
@@ -23,10 +30,26 @@ function editGrid() {
         
     })
 
+
+    let maxHeigth = 0;
+    $('[id^=panel-video]').each((i, v) => {
+   
+        console.log("height is "+$(v).find("video").height())
+        maxHeigth = (maxHeigth>$(v).find("video").height())? maxHeigth:$(v).find("video").height() ;
+
+    })
+
+    $('[id^=panel-video]').each((i, v) => {
+        $(v).height(maxHeigth);
+
+    })
+
+
+
+
     setTimeout(resizeWindow(),500);
-    configJson.gridSize = new_grid_size;
     gridSize = new_grid_size;
-    jsonfile.writeFile(configFile, configJson);
+    appConfigRepo.setGridSize(new_grid_size);
 
 }
 

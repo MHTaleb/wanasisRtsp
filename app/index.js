@@ -12,6 +12,7 @@ require('web-animations-js')
 require('hammerjs')
 const Muuri = require('muuri')
 
+const path = require('path')
 
 const camsMenu = require('./control/camsMenu.js')
 
@@ -29,14 +30,14 @@ var fs = require('fs');
 var util = require('util');
 var log_file = fs.createWriteStream(__dirname + '/debug.log', {flags : 'w'});
 var log_stdout = process.stdout;
-
+/*
 console.log = function(d) { //
   log_file.write(util.format(d) + '\n');
   log_stdout.write(util.format(d) + '\n');
-};
+};*/
 
 var gridSize;
-
+var configJson;
 var html = "";// The returned object.
 let parents = [];
 
@@ -49,7 +50,9 @@ camSourceRepo.getAll().then(cams => {
     camsMenu.updateCamsMenu(cams);
 })
 
-
+$(document).ready(()=>{
+   // $('#showTopMenu').css({'transform' : 'rotate(180deg)'});
+})
 
 function handleSelectedCam(checkBox) {
 
@@ -149,3 +152,31 @@ function resizeWindow() {
     evt.initUIEvent('resize', true, false, window, 0);
     window.dispatchEvent(evt);
 }
+
+function switchDisplay(){
+    console.log("switching"+$('#top_menu'))
+    $('#top_menu').toggle() ;//css('display','none')
+}
+
+function go_full_screen(){
+    var elem = document.documentElement;
+    if (elem.requestFullscreen) {
+      elem.requestFullscreen();
+    } else if (elem.msRequestFullscreen) {
+      elem.msRequestFullscreen();
+    } else if (elem.mozRequestFullScreen) {
+      elem.mozRequestFullScreen();
+    } else if (elem.webkitRequestFullscreen) {
+      elem.webkitRequestFullscreen();
+    }
+    
+    if (document.exitFullscreen) {
+        document.exitFullscreen();
+      } else if (document.mozCancelFullScreen) { /* Firefox */
+        document.mozCancelFullScreen();
+      } else if (document.webkitExitFullscreen) { /* Chrome, Safari and Opera */
+        document.webkitExitFullscreen();
+      } else if (document.msExitFullscreen) { /* IE/Edge */
+        document.msExitFullscreen();
+      }
+  }

@@ -42,16 +42,18 @@ function getCamPath(idValue, camSourceRepo) {
 
 }
 
+
+
 function addPlayer(player, camSourceRepo, videoPlayer) {
     var node = document.createElement("div");
 
     getCamPath(player, camSourceRepo).then(path => {
         camPath = path
-        
+
         itemClass = "item" + gridSize + "X" + gridSize;
         node.setAttribute('class', itemClass + ' video-container ');
         node.setAttribute('id', "panel-video-" + player);
-        node.innerHTML = "<div ondblclick='fullscreen(" + `"` + player + `"` + ")' class='item-content'><div class='panel-heading'><div class='panel-title-box'><span>" + camPath + "</span></div><div class='panel-body padding-0'><video class='autosize' id='player_" + player + "' style='width:100%; height:100%; max-height:800px;' autoplay muted></video></div></div>";
+        node.innerHTML = "<div ondblclick='fullscreen(" + `"` + player + `"` + ")' class='item-content'><div class='panel-heading'><div class='panel-body padding-0'><div class='w3-tooltip'>    <span style='position:absolute;left:0;bottom:18px' class='w3-text w3-tag'>" + camPath + "</span>  <video class='autosize' id='player_" + player + "' style='width:100%; height:100%; max-height:800px;' autoplay muted></video></div></div></div>";
 
         /*document.getElementById("grid").appendChild(node);*/
 
@@ -66,12 +68,29 @@ function addPlayer(player, camSourceRepo, videoPlayer) {
             }
         });
 
+     
+
         $('[id^=panel-video]').each((i, v) => {
             console.log(i)
             console.log(v)
             v.className = 'item' + gridSize + 'X' + gridSize;
 
         })
+
+        let maxHeigth = 0;
+        $('[id^=panel-video]').each((i, v) => {
+       
+            console.log("height is "+$(v).find("video").height())
+            maxHeigth = (maxHeigth>$(v).find("video").height())? maxHeigth:$(v).find("video").height() ;
+
+        })
+
+        $('[id^=panel-video]').each((i, v) => {
+            $(v).height(maxHeigth);
+
+        })
+
+
 
     });
 
@@ -83,7 +102,7 @@ function removePlayer(player) {
     videoPlayer.stop(player);
 }
 
-function showFullScreenPlayer(player_id,div_id='fullplayer_'){
+function showFullScreenPlayer(player_id, div_id = 'fullplayer_') {
 
     console.log(player_id);
     fs = "<video onclick='hideFullscreen()' id='fullplayer_" + player_id + "' style='width:100%; height:100%;' autoplay muted></video>";
@@ -98,9 +117,9 @@ function showFullScreenPlayer(player_id,div_id='fullplayer_'){
     });
 
 
-    videoPlayer.playVideo(player_id,div_id);
+    videoPlayer.playVideo(player_id, div_id);
 
-    
+
 }
 
 

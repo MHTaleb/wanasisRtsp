@@ -1,7 +1,7 @@
 
 const jsonfile = require('jsonfile');
 
-const path = require('path')
+
 const configFile = path.join(__dirname, '../data', 'config.json');
 
 
@@ -27,6 +27,12 @@ async function getGridSize() {
         return response["gridSize"]
 }
 
+async function setGridSize(_gridSize){
+    response =  await getAll()
+    response.gridSize = _gridSize;
+    jsonfile.writeFile(configFile, response);
+}
 
 exports.getAll = getAll
 exports.getGridSize = getGridSize
+exports.setGridSize = setGridSize

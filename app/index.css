@@ -1,6 +1,12 @@
 #main {
   transition: margin-left .5s;
-  padding: 16px;
+  padding: 10px;
+  margin: -12px;
+  width: 100%;
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
 
 .grid {
@@ -11,37 +17,35 @@
 
 .item3X3 {
   position: absolute;
-  width: 31%;
+  width: 32.5%;
   margin: 5px;
   z-index: 1;
 }
 
 .item2X2 {
   position: absolute;
-  width: 48%;
- 
+  width: 49%;
   margin: 5px;
   z-index: 1;
 }
 
 .item5X5 {
   position: absolute;
-  width: 18%;
+  width: 19.2%;
   margin: 5px;
   z-index: 1;
 }
 
 .item1X1 {
   position: absolute;
-  width: 97%;
- 
+  width: 99%;
   margin: 5px;
   z-index: 1;
 }
 
 .item4X4 {
   position: absolute;
-  width: 24%;
+  width: 24.2%;
   margin: 5px;
   z-index: 1;
 }
@@ -62,7 +66,7 @@
 
 .item8X8 {
   position: absolute;
-  width: 11.8%;
+  width: 12%;
   margin: 5px;
   z-index: 1;
 }
@@ -230,19 +234,19 @@ ul, li {
   list-style-type: none;
 }
 
-input,span {
+input, span {
   display: inline-flex;
 }
 
-
-span{
+span {
   padding-left: 10px;
 }
-label{
+
+label {
   display: inline-flex;
 }
 
-.panel-title-box{
+.panel-title-box {
   height: 44px;
   max-height: 44px;
   min-height: 44px;

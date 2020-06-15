@@ -33,7 +33,20 @@
   <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" id="myOverlay"></div>
 
   <div class="w3-main">
-    <div class="w3-teal">
+    <div class="w3-top" style="z-index: 20;padding-top: 52px;">
+      <button class="w3-button w3-teal w3-large w3-bar-item w3-display-right" id="showTopMenu" style="
+      margin-top: -26px;
+      height: 32px;
+      width: 0px;
+      float: left;
+      text-align: left;
+      padding-left: 0px;
+      padding-top: 0px;
+      transform: rotate(180deg);
+      padding-bottom: 0px;"
+     onclick="switchDisplay()">&#x279a;</button>
+    </div>
+    <div id="top_menu" class="w3-teal">
 
       <div class="w3-top" style="z-index: 20;">
         <div class="w3-bar w3-teal w3-card">
@@ -44,15 +57,21 @@
           </h3>
 
           <button class="w3-button w3-teal w3-xlarge w3-bar-item w3-display-right"
+            onclick="switchDisplay()">&#x279a;</button>
+
+          <button class="w3-button w3-teal w3-xlarge w3-bar-item w3-display-right" style="margin-right: 60px;"
             onclick="edit_source()">&#9921;</button>
-          <button class="w3-button w3-teal w3-xlarge w3-bar-item w3-display-right" style="margin-right: 40px;"
+            <button class="w3-button w3-teal w3-xlarge w3-bar-item w3-display-right" style="margin-right: 120px;"
             onclick="edit_grid()">&#9859;</button>
+
+            <button class="w3-button w3-teal w3-xlarge w3-bar-item w3-display-right" style="margin-right: 180px;"
+            onclick="go_full_screen()">&#x2195;</button>
+
 
         </div>
 
       </div>
     </div>
-    <br><br>
 
     <div id="main" style="margin-left: 1%; max-width: 99%;">
       <div id="grid" class="grid">
@@ -72,14 +91,16 @@
       </div>
     </div>
   </div>
-  
-  <div id="id02" class=" w3-container w3-modal" style="z-index: 20; padding: 0;" onclick="document.getElementById('id02').style.display='none'">
-    <div id="fullscreen" class="w3-modal-content" style="width: 100vw;height: 100vh; z-index: 2;" onclick="document.getElementById('id02').style.display='none'">
-   
+
+  <div id="id02" class=" w3-container w3-modal" style="z-index: 20; padding: 0;"
+    onclick="document.getElementById('id02').style.display='none'">
+    <div id="fullscreen" class="w3-modal-content" style="width: 100vw;height: 100vh; z-index: 2;"
+      onclick="document.getElementById('id02').style.display='none'">
+
     </div>
   </div>
-  
-  
+
+
 </body>
 
 </html>
