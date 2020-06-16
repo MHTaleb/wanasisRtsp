@@ -27,7 +27,14 @@ const videoPlayer = require("./control/videoPlayer.js")
 var a = require("array-tools");
 
 const hashtable = require('alib-hashtable');
- 
+
+
+Object.defineProperty(HTMLMediaElement.prototype, 'playing', {
+    get: function(){
+        return !!(this.currentTime > 0 && !this.paused && !this.ended && this.readyState > 2);
+    }
+})
+
 //new instance
 const mySourceHashTable = hashtable('id');
 const myFullSourceHashTable = hashtable('id');

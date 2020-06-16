@@ -8,6 +8,7 @@ const hashtable = require('alib-hashtable');
 
 //new instance
 const fullSourceHashTable = hashtable('id');
+const sourceHashTable = hashtable('id');
 
 process.initialize();
 
@@ -94,8 +95,9 @@ async function playVideo(p1, div_prefix = "player_", isFullScreen = false) {
             fullscreenSource(p1).then(fullsource => {
                 fullsource = process.start(fullsource, p1, true)
                 fullSourceHashTable.set({ id: p1, fullScreenSource: fullsource })
+                sourceHashTable.set({ id: p1, screenSource: source })
             })
-        }else{
+        } else {
             source = fullSourceHashTable.get(p1).fullScreenSource;
             console.log(fullscreenSource)
         }
@@ -107,18 +109,49 @@ async function playVideo(p1, div_prefix = "player_", isFullScreen = false) {
             console.log("hello ")
 
 
+
+            let safePlayInterval = setInterval(() => {
+
+                if (video.currentTime > 0) {
+                    clearInterval(safePlayInterval)
+                } else {
+
+                    if (repeatTimes < 8) {
+                        repeatTimes++;
+                    } else {
+                        video.pause();
+
+
+                        source = sourceHashTable.get(p1).screenSource;
+
+                        console.log('switch to the safe source of ' + source)
+
+                        player.loadSource(source);
+
+                        player.on(Hls.Events.MANIFEST_PARSED, function () {
+                            video.play()
+                        });
+
+                    }
+
+                }
+            }, 1000);
+
+
             let interval_call;
             new Promise((resolve) => {
+                responseCode = 0;
+                repeatTimes = 0;
                 interval_call = setInterval(() => {
                     if (fs.existsSync(source.replace("http://127.0.0.1", "/var/www/html")) === true) {
                         console.log("stoping interval")
                         clearInterval(interval_call)
                         console.log(" I will play video")
-                       
-                            
-                        
-                            player.loadSource(source);
-                        
+
+
+
+                        player.loadSource(source);
+
 
                         player.on(Hls.Events.MANIFEST_PARSED, function () {
                             console.log("hello ")
@@ -129,10 +162,30 @@ async function playVideo(p1, div_prefix = "player_", isFullScreen = false) {
                         return "";
                     } else {
                         console.log("still waiting for interval")
+                        repeatTimes++;
+                        if (repeatTimes == 30) {
+                            clearInterval(interval_call)
+                            responseCode = -1
+                        }
                     }
+                    return responseCode;
                 }, 2000);
 
+                return responseCode
+            }).then(code => {
+                console.log(code)
+                if (code === -1) {
+                    source = sourceHashTable.get(p1).screenSource;
+                    player.loadSource(source);
 
+
+                    player.on(Hls.Events.MANIFEST_PARSED, function () {
+                        console.log("hello ")
+                        video.play();
+
+
+                    });
+                }
             })
 
 

@@ -7,273 +7,592 @@
             "code": "DVR-251",
             "children": [
                 {
-                    "id": "cam-321",
-                    "code": "cam-321",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=21&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=21&subtype=0"
-                },
-                {
-                    "id": "cam-322",
-                    "code": "cam-322",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=22&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=22&subtype=0"
-                },
-                {
-                    "id": "cam-323",
-                    "code": "cam-323",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=23&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=23&subtype=0"
-                },
-                {
-                    "id": "cam-324",
-                    "code": "cam-324",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=24&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=24&subtype=0"
-                },
-                {
-                    "id": "cam-320",
-                    "code": "cam-320",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=20&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=20&subtype=0"
-                },
-                {
-                    "id": "cam-329",
-                    "code": "cam-329",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=29&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=29&subtype=0"
-                },
-                {
-                    "id": "cam-325",
-                    "code": "cam-325",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=25&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=25&subtype=0"
-                },
-                {
-                    "id": "cam-326",
-                    "code": "cam-326",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=26&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=26&subtype=0"
-                },
-                {
-                    "id": "cam-327",
-                    "code": "cam-327",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=27&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=27&subtype=0"
-                },
-                {
-                    "id": "cam-328",
-                    "code": "cam-328",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=28&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=28&subtype=0"
-                },
-                {
-                    "id": "cam-310",
-                    "code": "cam-310",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=10&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=10&subtype=0"
-                },
-                {
-                    "id": "cam-311",
-                    "code": "cam-311",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=11&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=11&subtype=0"
-                },
-                {
-                    "id": "cam-312",
-                    "code": "cam-312",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=12&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=12&subtype=0"
-                },
-                {
-                    "id": "cam-313",
-                    "code": "cam-313",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=13&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=13&subtype=0"
-                },
-                {
-                    "id": "cam-318",
-                    "code": "cam-318",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=18&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=18&subtype=0"
-                },
-                {
-                    "id": "cam-319",
-                    "code": "cam-319",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=19&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=19&subtype=0"
-                },
-                {
-                    "id": "cam-314",
-                    "code": "cam-314",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=14&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=14&subtype=0"
-                },
-                {
-                    "id": "cam-315",
-                    "code": "cam-315",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=15&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=15&subtype=0"
-                },
-                {
-                    "id": "cam-316",
-                    "code": "cam-316",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=16&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=16&subtype=0"
-                },
-                {
-                    "id": "cam-317",
-                    "code": "cam-317",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=17&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=17&subtype=0"
-                },
-                {
-                    "id": "cam-301",
-                    "code": "cam-301",
+                    "id": "cam-001",
+                    "code": "cam-001",
                     "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=1&subtype=1",
                     "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=1&subtype=0"
                 },
                 {
-                    "id": "cam-302",
-                    "code": "cam-302",
+                    "id": "cam-002",
+                    "code": "cam-002",
                     "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=2&subtype=1",
                     "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=2&subtype=0"
                 },
                 {
-                    "id": "cam-307",
-                    "code": "cam-307",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=7&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=7&subtype=0"
-                },
-                {
-                    "id": "cam-308",
-                    "code": "cam-308",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=8&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=8&subtype=0"
-                },
-                {
-                    "id": "cam-309",
-                    "code": "cam-309",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=9&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=9&subtype=0"
-                },
-                {
-                    "id": "cam-303",
-                    "code": "cam-303",
+                    "id": "cam-003",
+                    "code": "cam-003",
                     "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=3&subtype=1",
                     "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=3&subtype=0"
                 },
                 {
-                    "id": "cam-304",
-                    "code": "cam-304",
+                    "id": "cam-004",
+                    "code": "cam-004",
                     "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=4&subtype=1",
                     "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=4&subtype=0"
                 },
                 {
-                    "id": "cam-305",
-                    "code": "cam-305",
+                    "id": "cam-005",
+                    "code": "cam-005",
                     "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=5&subtype=1",
                     "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=5&subtype=0"
                 },
                 {
-                    "id": "cam-306",
-                    "code": "cam-306",
+                    "id": "cam-006",
+                    "code": "cam-006",
                     "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=6&subtype=1",
                     "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=6&subtype=0"
                 },
                 {
-                    "id": "cam-332",
-                    "code": "cam-332",
-                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=32&subtype=1",
-                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=32&subtype=0"
+                    "id": "cam-007",
+                    "code": "cam-007",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=7&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=7&subtype=0"
                 },
                 {
-                    "id": "cam-330",
-                    "code": "cam-330",
+                    "id": "cam-008",
+                    "code": "cam-008",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=8&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=8&subtype=0"
+                },
+                {
+                    "id": "cam-009",
+                    "code": "cam-009",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=9&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=9&subtype=0"
+                },
+                {
+                    "id": "cam-010",
+                    "code": "cam-010",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=10&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=10&subtype=0"
+                },
+                {
+                    "id": "cam-011",
+                    "code": "cam-011",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=11&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=11&subtype=0"
+                },
+                {
+                    "id": "cam-012",
+                    "code": "cam-012",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=12&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=12&subtype=0"
+                },
+                {
+                    "id": "cam-013",
+                    "code": "cam-013",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=13&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=13&subtype=0"
+                },
+                {
+                    "id": "cam-014",
+                    "code": "cam-014",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=14&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=14&subtype=0"
+                },
+                {
+                    "id": "cam-015",
+                    "code": "cam-015",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=15&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=15&subtype=0"
+                },
+                {
+                    "id": "cam-016",
+                    "code": "cam-016",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=16&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=16&subtype=0"
+                },
+                {
+                    "id": "cam-017",
+                    "code": "cam-017",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=17&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=17&subtype=0"
+                },
+                {
+                    "id": "cam-018",
+                    "code": "cam-018",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=18&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=18&subtype=0"
+                },
+                {
+                    "id": "cam-019",
+                    "code": "cam-019",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=19&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=19&subtype=0"
+                },
+                {
+                    "id": "cam-020",
+                    "code": "cam-020",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=20&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=20&subtype=0"
+                },
+                {
+                    "id": "cam-021",
+                    "code": "cam-021",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=21&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=21&subtype=0"
+                },
+                {
+                    "id": "cam-022",
+                    "code": "cam-022",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=22&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=22&subtype=0"
+                },
+                {
+                    "id": "cam-023",
+                    "code": "cam-023",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=23&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=23&subtype=0"
+                },
+                {
+                    "id": "cam-024",
+                    "code": "cam-024",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=24&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=24&subtype=0"
+                },
+                {
+                    "id": "cam-025",
+                    "code": "cam-025",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=25&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=25&subtype=0"
+                },
+                {
+                    "id": "cam-026",
+                    "code": "cam-026",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=26&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=26&subtype=0"
+                },
+                {
+                    "id": "cam-027",
+                    "code": "cam-027",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=4&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=4&subtype=0"
+                },
+                {
+                    "id": "cam-028",
+                    "code": "cam-028",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=28&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=28&subtype=0"
+                },
+                {
+                    "id": "cam-029",
+                    "code": "cam-029",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=29&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=29&subtype=0"
+                },
+                {
+                    "id": "cam-030",
+                    "code": "cam-030",
                     "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=30&subtype=1",
                     "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=30&subtype=0"
                 },
                 {
-                    "id": "cam-331",
-                    "code": "cam-331",
+                    "id": "cam-031",
+                    "code": "cam-031",
                     "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=31&subtype=1",
                     "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=31&subtype=0"
+                },
+                {
+                    "id": "cam-032",
+                    "code": "cam-032",
+                    "source": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=32&subtype=1",
+                    "sourceFullScreen": "rtsp://admin2:admin1234@192.168.0.251:554/cam/realmonitor?channel=32&subtype=0"
                 }
             ]
         },
         {
             "id": "DVR-41",
             "code": "DVR-41",
-            "children": []
+            "children": [
+                {
+                    "id": "camera-001",
+                    "code": "camera-001",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=1&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=1&subtype=0"
+                },
+                {
+                    "id": "camera-002",
+                    "code": "camera-002",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=2&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=2&subtype=0"
+                },
+                {
+                    "id": "camera-003",
+                    "code": "camera-003",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=3&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=3&subtype=0"
+                },
+                {
+                    "id": "camera-004",
+                    "code": "camera-004",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=4&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=4&subtype=0"
+                },
+                {
+                    "id": "camera-005",
+                    "code": "camera-005",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=5&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=5&subtype=0"
+                },
+                {
+                    "id": "camera-006",
+                    "code": "camera-006",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=6&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=6&subtype=0"
+                },
+                {
+                    "id": "camera-007",
+                    "code": "camera-007",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=7&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=7&subtype=0"
+                },
+                {
+                    "id": "camera-008",
+                    "code": "camera-008",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=8&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=8&subtype=0"
+                },
+                {
+                    "id": "camera-009",
+                    "code": "camera-009",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=9&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=9&subtype=0"
+                },
+                {
+                    "id": "camera-010",
+                    "code": "camera-010",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=10&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=10&subtype=0"
+                },
+                {
+                    "id": "camera-011",
+                    "code": "camera-011",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=11&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=11&subtype=0"
+                },
+                {
+                    "id": "camera-012",
+                    "code": "camera-012",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=12&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=12&subtype=0"
+                },
+                {
+                    "id": "camera-013",
+                    "code": "camera-013",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=13&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=13&subtype=0"
+                },
+                {
+                    "id": "camera-014",
+                    "code": "camera-014",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=14&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=14&subtype=0"
+                },
+                {
+                    "id": "camera-015",
+                    "code": "camera-015",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=15&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=15&subtype=0"
+                },
+                {
+                    "id": "camera-016",
+                    "code": "camera-016",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=16&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=16&subtype=0"
+                },
+                {
+                    "id": "camera-017",
+                    "code": "camera-017",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=17&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=17&subtype=0"
+                },
+                {
+                    "id": "camera-018",
+                    "code": "camera-018",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=18&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=18&subtype=0"
+                },
+                {
+                    "id": "camera-019",
+                    "code": "camera-019",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=19&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=19&subtype=0"
+                },
+                {
+                    "id": "camera-020",
+                    "code": "camera-020",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=20&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=20&subtype=0"
+                },
+                {
+                    "id": "camera-021",
+                    "code": "camera-021",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=21&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=21&subtype=0"
+                },
+                {
+                    "id": "camera-022",
+                    "code": "camera-022",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=22&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=22&subtype=0"
+                },
+                {
+                    "id": "camera-023",
+                    "code": "camera-023",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=23&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=23&subtype=0"
+                },
+                {
+                    "id": "camera-024",
+                    "code": "camera-024",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=24&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=24&subtype=0"
+                },
+                {
+                    "id": "camera-025",
+                    "code": "camera-025",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=25&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=25&subtype=0"
+                },
+                {
+                    "id": "camera-026",
+                    "code": "camera-026",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=26&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=26&subtype=0"
+                },
+                {
+                    "id": "camera-027",
+                    "code": "camera-027",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=27&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=27&subtype=0"
+                },
+                {
+                    "id": "camera-028",
+                    "code": "camera-028",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=28&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=28&subtype=0"
+                },
+                {
+                    "id": "camera-029",
+                    "code": "camera-029",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=29&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=29&subtype=0"
+                },
+                {
+                    "id": "camera-030",
+                    "code": "camera-030",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=30&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=30&subtype=0"
+                },
+                {
+                    "id": "camera-031",
+                    "code": "camera-031",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=31&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=31&subtype=0"
+                },
+                {
+                    "id": "camera-032",
+                    "code": "camera-032",
+                    "source": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=32&subtype=1",
+                    "sourceFullScreen": "rtsp://admin3:admin12345@192.168.0.41:554/cam/realmonitor?channel=32&subtype=0"
+                }
+            ]
         },
         {
             "id": "DVR-138",
             "code": "DVR-138",
             "children": [
                 {
-                    "id": "cam-113",
-                    "code": "cam-113",
-                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1302",
-                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1301"
-                },
-                {
-                    "id": "cam-110",
-                    "code": "cam-110",
-                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1002",
-                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1001"
-                },
-                {
                     "id": "cam-101",
                     "code": "cam-101",
-                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/102",
-                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/101"
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/101",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/102"
                 },
                 {
                     "id": "cam-102",
                     "code": "cam-102",
-                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/202",
-                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/201"
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/201",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/202"
                 },
                 {
                     "id": "cam-103",
                     "code": "cam-103",
-                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/302",
-                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/301"
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/301",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/302"
                 },
                 {
                     "id": "cam-104",
                     "code": "cam-104",
-                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/402",
-                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/401"
-                },
-                {
-                    "id": "cam-109",
-                    "code": "cam-109",
-                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/902",
-                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/901"
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/401",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/402"
                 },
                 {
                     "id": "cam-105",
                     "code": "cam-105",
-                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/502",
-                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/501"
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/501",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/502"
                 },
                 {
                     "id": "cam-106",
                     "code": "cam-106",
-                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/602",
-                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/601"
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/601",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/602"
                 },
                 {
                     "id": "cam-107",
                     "code": "cam-107",
-                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/702",
-                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/701"
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/701",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/702"
                 },
                 {
                     "id": "cam-108",
                     "code": "cam-108",
-                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/802",
-                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/801"
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/801",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/802"
+                },
+                {
+                    "id": "cam-109",
+                    "code": "cam-109",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/901",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/902"
+                },
+                {
+                    "id": "cam-110",
+                    "code": "cam-110",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1001",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1002"
+                },
+                {
+                    "id": "cam-111",
+                    "code": "cam-111",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1101",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1102"
+                },
+                {
+                    "id": "cam-112",
+                    "code": "cam-112",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1201",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1202"
+                },
+                {
+                    "id": "cam-113",
+                    "code": "cam-113",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1301",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1302"
+                },
+                {
+                    "id": "cam-114",
+                    "code": "cam-114",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1401",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1402"
+                },
+                {
+                    "id": "cam-115",
+                    "code": "cam-115",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1501",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1502"
+                },
+                {
+                    "id": "cam-116",
+                    "code": "cam-116",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1601",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1602"
+                },
+                {
+                    "id": "cam-117",
+                    "code": "cam-117",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1701",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1702"
+                },
+                {
+                    "id": "cam-118",
+                    "code": "cam-118",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1801",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1802"
+                },
+                {
+                    "id": "cam-119",
+                    "code": "cam-119",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1901",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/1902"
+                },
+                {
+                    "id": "cam-120",
+                    "code": "cam-120",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2001",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2002"
+                },
+                {
+                    "id": "cam-121",
+                    "code": "cam-121",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2101",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2102"
+                },
+                {
+                    "id": "cam-122",
+                    "code": "cam-122",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2201",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2202"
+                },
+                {
+                    "id": "cam-123",
+                    "code": "cam-123",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2301",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2302"
+                },
+                {
+                    "id": "cam-124",
+                    "code": "cam-124",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2401",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2402"
+                },
+                {
+                    "id": "cam-125",
+                    "code": "cam-125",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2501",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2502"
+                },
+                {
+                    "id": "cam-126",
+                    "code": "cam-126",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2601",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2602"
+                },
+                {
+                    "id": "cam-127",
+                    "code": "cam-127",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2701",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2702"
+                },
+                {
+                    "id": "cam-128",
+                    "code": "cam-128",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2801",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2802"
+                },
+                {
+                    "id": "cam-129",
+                    "code": "cam-129",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2901",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/2902"
+                },
+                {
+                    "id": "cam-130",
+                    "code": "cam-130",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/3001",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/3002"
+                },
+                {
+                    "id": "cam-131",
+                    "code": "cam-131",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/3101",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/3102"
+                },
+                {
+                    "id": "cam-132",
+                    "code": "cam-132",
+                    "source": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/3201",
+                    "sourceFullScreen": "rtsp://admin:admin12345@192.168.1.138:554/Streaming/Channels/3202"
                 }
             ]
         },
@@ -282,70 +601,196 @@
             "code": "DVR-137",
             "children": [
                 {
+                    "id": "cam-201",
+                    "code": "cam-201",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/101",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/102"
+                },
+                {
+                    "id": "cam-202",
+                    "code": "cam-202",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/201",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/202"
+                },
+                {
                     "id": "cam-203",
                     "code": "cam-203",
-                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/302",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/301"
-                },
-                {
-                    "id": "cam-208",
-                    "code": "cam-208",
-                    "source": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/102",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/801"
-                },
-                {
-                    "id": "cam-209",
-                    "code": "cam-209",
-                    "source": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/902",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/901"
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/301",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/302"
                 },
                 {
                     "id": "cam-204",
                     "code": "cam-204",
-                    "source": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/402",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/401"
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/401",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/402"
                 },
                 {
                     "id": "cam-205",
                     "code": "cam-205",
-                    "source": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/502",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/501"
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/501",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/502"
                 },
                 {
                     "id": "cam-206",
                     "code": "cam-206",
-                    "source": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/602",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/601"
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/601",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/602"
                 },
                 {
                     "id": "cam-207",
                     "code": "cam-207",
-                    "source": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/702",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/701"
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/701",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/702"
                 },
                 {
-                    "id": "cam-211",
-                    "code": "cam-211",
-                    "source": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1102",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1101"
+                    "id": "cam-208",
+                    "code": "cam-208",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/801",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/802"
                 },
                 {
-                    "id": "cam-212",
-                    "code": "cam-212",
-                    "source": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1202",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1201"
-                },
-                {
-                    "id": "cam-213",
-                    "code": "cam-213",
-                    "source": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1302",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1301"
+                    "id": "cam-209",
+                    "code": "cam-209",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/901",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/902"
                 },
                 {
                     "id": "cam-210",
                     "code": "cam-210",
-                    "source": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1002",
-                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1001"
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/1001",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1002"
+                },
+                {
+                    "id": "cam-211",
+                    "code": "cam-211",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/1101",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1102"
+                },
+                {
+                    "id": "cam-212",
+                    "code": "cam-212",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/1201",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1202"
+                },
+                {
+                    "id": "cam-213",
+                    "code": "cam-213",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/1301",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1302"
+                },
+                {
+                    "id": "cam-214",
+                    "code": "cam-214",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/1401",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1402"
+                },
+                {
+                    "id": "cam-215",
+                    "code": "cam-215",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/1501",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1502"
+                },
+                {
+                    "id": "cam-216",
+                    "code": "cam-216",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/1601",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1602"
+                },
+                {
+                    "id": "cam-217",
+                    "code": "cam-217",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/1701",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1702"
+                },
+                {
+                    "id": "cam-218",
+                    "code": "cam-218",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/1801",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1802"
+                },
+                {
+                    "id": "cam-219",
+                    "code": "cam-219",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/1901",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/1902"
+                },
+                {
+                    "id": "cam-220",
+                    "code": "cam-220",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/2001",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/2002"
+                },
+                {
+                    "id": "cam-221",
+                    "code": "cam-221",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/2101",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/2102"
+                },
+                {
+                    "id": "cam-222",
+                    "code": "cam-222",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/2201",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/2202"
+                },
+                {
+                    "id": "cam-223",
+                    "code": "cam-223",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/2301",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/2302"
+                },
+                {
+                    "id": "cam-224",
+                    "code": "cam-224",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/2401",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/2402"
+                },
+                {
+                    "id": "cam-225",
+                    "code": "cam-225",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/2501",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/2502"
+                },
+                {
+                    "id": "cam-226",
+                    "code": "cam-226",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/2601",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/2602"
+                },
+                {
+                    "id": "cam-227",
+                    "code": "cam-227",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/2701",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/2702"
+                },
+                {
+                    "id": "cam-228",
+                    "code": "cam-228",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/2801",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/2802"
+                },
+                {
+                    "id": "cam-229",
+                    "code": "cam-229",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/2901",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/2902"
+                },
+                {
+                    "id": "cam-230",
+                    "code": "cam-230",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/3001",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/3002"
+                },
+                {
+                    "id": "cam-231",
+                    "code": "cam-231",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/3101",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/3102"
+                },
+                {
+                    "id": "cam-232",
+                    "code": "cam-232",
+                    "source": "rtsp: //admin:admin1234@192.168.1.137:554/Streaming/Channels/3201",
+                    "sourceFullScreen": "rtsp://admin:admin1234@192.168.1.137:554/Streaming/Channels/3202"
                 }
             ]
         }
