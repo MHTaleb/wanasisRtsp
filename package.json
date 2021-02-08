@@ -22,7 +22,7 @@
     "electron": "^1.8.8",
     "electron-packager": "^14.2.1",
     "remote": "^0.2.6",
-    "yarn": "^0.21.3"
+    "yarn": "^1.22.0"
   },
   "dependencies": {
     "alib-hashtable": "^1.1.2",
